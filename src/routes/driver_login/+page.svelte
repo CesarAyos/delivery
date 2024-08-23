@@ -22,7 +22,7 @@
     }
   </script>
   
-  <section class="vh-100">
+  <section >
     <div class="h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-md-9 col-lg-6 col-xl-5">
@@ -57,22 +57,6 @@
               <label class="form-label" for="form3Example4">Password</label>
             </div>
   
-            <div class="d-flex justify-content-between align-items-center">
-              <!-- Checkbox -->
-              <div class="form-check mb-0">
-                <input
-                  class="form-check-input me-2"
-                  type="checkbox"
-                  value=""
-                  id="form2Example3"
-                />
-                <label class="form-check-label" for="form2Example3">
-                  Recordar
-                </label>
-              </div>
-              <a href="#!" class="text-body">Forgot password?</a>
-            </div>
-  
             <div class="text-center text-lg-start mt-4 pt-2">
               <button
                 type="submit"
@@ -80,9 +64,6 @@
                 data-mdb-ripple-init
                 class="btn btn-primary btn-lg"
                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar</button>
-              <p class="small fw-bold mt-2 pt-1 mb-0">
-                Aún no tienes una cuenta como conductor? <a href="driver" class="link-danger">Registrate</a>
-              </p>
             </div>
           </form>
           {#if errorMessage}

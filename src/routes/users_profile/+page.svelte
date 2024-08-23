@@ -29,7 +29,7 @@
           userProfile = userProfileData;
         } else {
           errorMessage = "No se encontró el perfil del usuario.";
-          alert("No se encontro Usuario!")
+          alert("Debes de ingresar en la seccion de Conductores, esta seccion es solo para Usuarios gracias!!")
           window.location.href = "/";
         }
       }

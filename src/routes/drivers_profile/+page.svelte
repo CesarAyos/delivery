@@ -30,7 +30,7 @@
           driverProfile = driverProfileData;
         } else {
           errorMessage = "No se encontró el perfil del usuario.";
-          alert("No se encontró Usuario!");
+          alert("Debes de ingresar en la seccion de Usuarios, esta seccion es solo para conductores gracias!");
           window.location.href = "/";
         }
       }

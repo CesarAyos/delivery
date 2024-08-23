@@ -42,8 +42,8 @@
 
 <div style="background:rgb(0,0,0,0.7);height: 100vh;">
   <div class="container p-5" >
-    <div class="container mt-5 mb-5">
-      <p class="text-center text-white" style="font-size: 50px;">
+    <div class="container mt-5 mb-5 p">
+      <p class="text-center text-white mensajep" style="font-size: 50px;">
         VIAJA COMODO Y SEGURO
       </p>
       <p class="text-center text-white">Desde la comodidad de tu celular o ordenador</p>
@@ -53,13 +53,15 @@
       <div class="row row-cols-2 row-cols-lg-4 g-4 g-lg-3">
         <div class="col">
           <!-- Botón 1 -->
+           <div class="d-flex justify-content-center ">
           <button
             type="button"
             class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal1"
-          ><i class="fa-solid fa-id-card cell"><p class="fs-5 mt-3"><em>Usuario</em></p></i><p class="complete">Iniciar sesion como usuario</p>
+          ><i class="fa-solid fa-id-card cell"><p class="mt-3" style="font-size: 12px;"><em>Usuario</em></p></i><p class="complete">Iniciar sesion como usuario</p>
           </button>
+        </div>
 
           <!-- Modal 1 -->
           <div
@@ -160,14 +162,16 @@
         </div>
         <div class="col">
           <!-- Botón 2 -->
+           <div class="d-flex justify-content-center">
           <button
             type="button"
             class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal2"
           >
-          <i class="fa-solid fa-person-biking cell"><p class="fs-5 mt-3"><em>Conductor</em></p></i><p class="complete">Iniciar sesion como Conductor</p>
+          <i class="fa-solid fa-person-biking cell"><p class="mt-3" style="font-size: 12px;"><em>Conductor</em></p></i><p class="complete">Iniciar sesion como Conductor</p>
           </button>
+        </div>
 
           <!-- Modal 2 -->
           <div
@@ -267,14 +271,16 @@
         </div>
         <div class="col">
           <!-- Botón 3 -->
+           <div class="d-flex justify-content-center">
           <button
             type="button"
             class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal3"
           >
-          <i class="fa-solid fa-registered cell"><p class="fs-5 mt-3"><em>Nuevo Usuario</em></p></i><p class="complete">Registrarse como usuario</p>
+          <i class="fa-solid fa-registered cell"><p class=" mt-3" style="font-size: 12px;"><em>Nuevo Usuario</em></p></i><p class="complete">Registrarse como usuario</p>
           </button>
+        </div>
 
           <!-- Modal 3 -->
           <div
@@ -341,14 +347,16 @@
         </div>
         <div class="col">
           <!-- Botón 4 -->
+           <div class="d-flex justify-content-center">
           <button
             type="button"
             class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal4"
           >
-          <i class="fa-regular fa-registered cell"><p class="fs-5 mt-3"><em>Nuevo Conductor</em></p></i><p class="complete">Registrarse como Conductor</p>
+          <i class="fa-regular fa-registered cell"><p class="mt-3" style="font-size: 12px;"><em>Nuevo Conductor</em></p></i><p class="complete">Registrarse como Conductor</p>
           </button>
+        </div>
           
 
           <!-- Modal 4 -->
@@ -439,6 +447,15 @@
   .boton{
     background-color: transparent;
     border: none;
+  }
+
+  .mensajep{
+    font-size: 25px !important;
+    
+  }
+
+  .p{
+    margin-bottom: 100px !important;
   }
 
   }

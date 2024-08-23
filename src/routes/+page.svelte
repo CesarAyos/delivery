@@ -58,7 +58,7 @@
             class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal1"
-          ><i class="fa-solid fa-id-card cell"></i><p class="complete">Iniciar sesion como usuario</p>
+          ><i class="fa-solid fa-id-card cell"><p class="fs-5 mt-3"><em>Usuario</em></p></i><p class="complete">Iniciar sesion como usuario</p>
           </button>
 
           <!-- Modal 1 -->
@@ -166,7 +166,7 @@
             data-bs-toggle="modal"
             data-bs-target="#modal2"
           >
-          <i class="fa-solid fa-person-biking cell"></i><p class="complete">Iniciar sesion como Conductor</p>
+          <i class="fa-solid fa-person-biking cell"><p class="fs-5 mt-3"><em>Conductor</em></p></i><p class="complete">Iniciar sesion como Conductor</p>
           </button>
 
           <!-- Modal 2 -->
@@ -273,7 +273,7 @@
             data-bs-toggle="modal"
             data-bs-target="#modal3"
           >
-          <i class="fa-solid fa-registered cell"></i><p class="complete">Registrarse como usuario</p>
+          <i class="fa-solid fa-registered cell"><p class="fs-5 mt-3"><em>Nuevo Usuario</em></p></i><p class="complete">Registrarse como usuario</p>
           </button>
 
           <!-- Modal 3 -->
@@ -347,7 +347,7 @@
             data-bs-toggle="modal"
             data-bs-target="#modal4"
           >
-          <i class="fa-regular fa-registered cell"></i><p class="complete">Registrarse como Conductor</p>
+          <i class="fa-regular fa-registered cell"><p class="fs-5 mt-3"><em>Nuevo Conductor</em></p></i><p class="complete">Registrarse como Conductor</p>
           </button>
           
 
@@ -423,7 +423,7 @@
   .h-custom {
     height: calc(100% - 73px);
   }
-  @media (max-width: 992px) {
+  @media (max-width: 900px) {
     .h-custom {
       height: 100%;
     }

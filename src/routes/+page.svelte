@@ -55,11 +55,10 @@
           <!-- Botón 1 -->
           <button
             type="button"
-            class="btn btn-info text-white"
+            class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal1"
-          >
-            Iniciar sesion como usuario
+          ><i class="fa-solid fa-id-card cell"></i><p class="complete">Iniciar sesion como usuario</p>
           </button>
 
           <!-- Modal 1 -->
@@ -163,11 +162,11 @@
           <!-- Botón 2 -->
           <button
             type="button"
-            class="btn btn-info text-white"
+            class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal2"
           >
-            iniciar sesion como conductor
+          <i class="fa-solid fa-person-biking cell"></i><p class="complete">Iniciar sesion como Conductor</p>
           </button>
 
           <!-- Modal 2 -->
@@ -270,11 +269,11 @@
           <!-- Botón 3 -->
           <button
             type="button"
-            class="btn btn-info text-white"
+            class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal3"
           >
-            Registrarse como usuario
+          <i class="fa-solid fa-registered cell"></i><p class="complete">Registrarse como usuario</p>
           </button>
 
           <!-- Modal 3 -->
@@ -344,12 +343,13 @@
           <!-- Botón 4 -->
           <button
             type="button"
-            class="btn btn-info text-white"
+            class="btn btn-info text-white boton"
             data-bs-toggle="modal"
             data-bs-target="#modal4"
           >
-            Registrarse como conductor
+          <i class="fa-regular fa-registered cell"></i><p class="complete">Registrarse como Conductor</p>
           </button>
+          
 
           <!-- Modal 4 -->
           <div
@@ -416,6 +416,10 @@
 
 
 <style>
+.cell{
+  display: none;
+}
+
   .h-custom {
     height: calc(100% - 73px);
   }
@@ -423,5 +427,19 @@
     .h-custom {
       height: 100%;
     }
+    .complete{
+      display: none;
+    }
+    .cell{
+  display: block;
+  font-size: 70px;
+  
+}
+
+  .boton{
+    background-color: transparent;
+    border: none;
+  }
+
   }
 </style>

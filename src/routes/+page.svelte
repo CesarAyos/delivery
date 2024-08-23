@@ -41,12 +41,12 @@
 </script>
 
 <div style="background:rgb(0,0,0,0.7);height: 100vh;">
-  <div class="container p-5 text-white" >
+  <div class="container p-5" >
     <div class="container mt-5 mb-5">
       <p class="text-center text-white" style="font-size: 50px;">
         VIAJA COMODO Y SEGURO
       </p>
-      <p class="text-center">Desde la comodidad de tu celular o ordenador</p>
+      <p class="text-center text-white">Desde la comodidad de tu celular o ordenador</p>
     </div>
 
     <div class="container text-center pb-5">
@@ -55,7 +55,7 @@
           <!-- Botón 1 -->
           <button
             type="button"
-            class="btn btn-outline-dark text-white"
+            class="btn btn-info text-white"
             data-bs-toggle="modal"
             data-bs-target="#modal1"
           >
@@ -75,7 +75,7 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title text-white" id="modal1Label">
+                  <h1 class="modal-title fs-5" id="modal1Label">
                     Iniciar sesion como usuario
                   </h1>
                   <button
@@ -163,7 +163,7 @@
           <!-- Botón 2 -->
           <button
             type="button"
-            class="btn btn-outline-secondary text-white"
+            class="btn btn-info text-white"
             data-bs-toggle="modal"
             data-bs-target="#modal2"
           >
@@ -270,7 +270,7 @@
           <!-- Botón 3 -->
           <button
             type="button"
-            class="btn btn-outline-secondary text-white"
+            class="btn btn-info text-white"
             data-bs-toggle="modal"
             data-bs-target="#modal3"
           >
@@ -290,7 +290,7 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="modal3Label">
+                  <h1 class="modal-title fs-5 text-dark" id="modal3Label">
                     Registro de usuario
                   </h1>
                   <button
@@ -300,7 +300,7 @@
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body text-dark">
                   ¡Hola y bienvenidos a todos nuestros futuros clientes de
                   mototaxis! 🎉 Nos emociona que estés considerando unirte a
                   nuestra comunidad. Queremos asegurarnos de que tengas la mejor
@@ -344,7 +344,7 @@
           <!-- Botón 4 -->
           <button
             type="button"
-            class="btn btn-outline-secondary text-white"
+            class="btn btn-info text-white"
             data-bs-toggle="modal"
             data-bs-target="#modal4"
           >
@@ -364,7 +364,7 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="modal4Label">
+                  <h1 class="modal-title fs-5 text-dark" id="modal4Label">
                     Registrarme como conductor
                   </h1>
                   <button
@@ -374,7 +374,7 @@
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body text-dark">
                   ¡Hola y bienvenidos a todos los futuros conductores de moto!
                   🚀 Nos alegra que estés interesado en unirte a nuestro equipo.
                   Antes de comenzar, queremos recordarte la importancia de la
